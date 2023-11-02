@@ -1,0 +1,20 @@
+# Based on the provided code, here are some of the packages that may be required:
+
+requirements_content = """
+streamlit
+pandas
+numpy
+tensorflow
+keras
+matplotlib
+seaborn
+scikit-learn
+"""
+
+# Save to a file
+file_path = "C:/Users/GunalHincal/Desktop/DEPLOY/STREAMLIT/requirements.txt"
+
+with open(file_path, "w") as file:
+    file.write(requirements_content)
+
+file_path
